@@ -1,4 +1,4 @@
-# Ionic_Chat :computer:
+# Sistema web de tienda virtual CCE :computer:
 
 ## Pasos para levantar el servicio backend :Laravel:
 
