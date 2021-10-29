@@ -2,15 +2,14 @@
 
 ## Pasos para levantar el servicio :Laravel:
 
-## Integrantes de grupo : 
+* **Clonar Repositorio** 
+* **Ejecutar en el back: composer install** 
+* **Configurar archivo ".env" con la cadena de conexión a la base de datos**  
+* **Ejecutar comando para migrar la base de datos: php artisan migrate**
+* **Ejecutar comando para crear datos ficticios y categorias: php artisan db:seed**
+* **Ejecutar comando para correr backend: php artisan serve**
 
-* **Josue Garrido** 
-* **Xavier Jaramillo** 
-* **Jefferson Llumiquinga**  
-* **Mauricio Rodriguez**
-* **Charlie Lopez**
-
-Inonic Chat desarrollado con Ionic Framework, la aplicacion APK ya instalada en un dispositvo permitira crear y borrar mensajes que conjutamente se iran guardando en Firebase de Google, los registros de los chats de los usuarios se iran guardando constantemente.
+El backend se ejecutara por en el puerto:8000 por defecto.
 
 :mailbox: :email:
 
@@ -18,16 +17,12 @@ Inonic Chat desarrollado con Ionic Framework, la aplicacion APK ya instalada en 
 
 ## Versiones:
 
-* **Ionic CLI: 5.4.16**
-* **Ionic Framework : @ionic/angular 5.5.2**
-* **@angular/cli : 10.0.8**
-
-* **cordova-res : 0.15.2**
-* **NodeJS : v12.16.1**
+* **PHP: 7.2**
+* **Laravel 7**
 
 ## Observaciones:
 
-** *Se Necesita versión de Android 9 o más*
+** *Se Necesita php, xammp y node.js*
 
 ## Descarga El APK
 
