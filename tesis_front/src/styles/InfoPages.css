@@ -1,0 +1,118 @@
+/* seccion paginas secundarias*/
+.imgPageHB{
+    background-image: url("../images/ImgPages/fondo-paginas.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    width: auto ;
+
+}
+
+.imagesPageHB{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+}
+
+
+.titlePageInfo{
+    font-family: Geometos;
+    font-size: 50pt;
+    text-align: left;
+    color: white;
+    line-height: 50pt;
+}
+/*margenes aun  no usados */
+.margin{
+
+}
+
+/*button*/
+nav {
+    margin: 5px 90px;
+    background-color: rgba(245, 245, 245, 0.4);
+    box-shadow: rgba(245, 245, 245, 0.4);
+
+}
+
+nav ul {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    position: relative;
+    text-align: left;
+
+}
+
+nav ul li {
+    display: grid ;
+    background-color: rgba(245, 245, 245, 0.4);
+
+
+}
+
+nav a {
+    display: block;
+    padding: 5px 10px;
+    color: black;
+    font-size: 16px;
+    line-height: 60px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: rgba(245, 245, 245, 0.4);
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 70px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+    display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+    z-index: 1;
+}
+
+/* Second, Third and more Tiers	*/
+
+i {
+
+    position: relative;
+    padding-left: 1.25em;
+
+}
+
+.down-shadow-menu:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.25em;
+    width: 1em;
+    height: 0.15em;
+    background: white;
+    box-shadow:
+            0 0.25em 0 0 white,
+            0 0.5em 0 0 white;
+}
+.capa1{
+    position: relative;
+    z-index: 0;
+}
